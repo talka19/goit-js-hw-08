@@ -22,9 +22,6 @@ function onClickGallary(items) {
 
 function onChangeItems(event) {
   event.preventDefault();
-   if (event.target.nodeName !== "IMG") {
-    return;
-  }
 }
 
 var lightbox = new SimpleLightbox('.gallery a', { captionsData: "alt", captionDelay: 250 });

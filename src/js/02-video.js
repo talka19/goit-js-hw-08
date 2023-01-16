@@ -13,6 +13,4 @@ function playTime(e) {
 
 const currentTime = localStorage.getItem('videoplayer-current-time') || 0;
 
-player.setCurrentTime(currentTime).catch(function (error) {
-        console.error(error);
-});
+player.setCurrentTime(currentTime)
